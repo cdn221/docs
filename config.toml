@@ -1,0 +1,5 @@
+baseURL = "https://example.com/"  # 换成你自己的域名或发布地址
+languageCode = "en-us"
+title = "我的发布页"
+theme = "bearblog"
+
