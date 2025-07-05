@@ -1,5 +1,5 @@
-baseURL = "https://example.com/"  # 换成你自己的域名或发布地址
-languageCode = "en-us"
+baseURL = "https://fb.16021.top/"
+languageCode = "zh-CN"
 title = "我的发布页"
 theme = "bearblog"
 
