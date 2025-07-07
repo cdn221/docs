@@ -4,9 +4,8 @@ title: "欢迎访问"
 
 ## 🚀 当前可用地址：
 
-- 👉 [主站1](https://a.example.com)
-- 👉 [主站2](https://b.example.com)
-- 👉 [备用镜像](https://mirror.example.com)
+- 👉 [主站1111](https://a.example.com)
+- 👉 [主站2222](https://b.example.com)
+- 👉 [永久访问地址](https://cdnn1.com)
 
-📢 本页实时更新，请收藏或截图保存。如失效请访问 Telegram 群组。
-
+📢 本页实时更新，请Ctrl+D收藏。如失效请访问 Telegram 群组。
