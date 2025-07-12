@@ -13,3 +13,5 @@ title: "欢迎访问"
 📢 如失效请请联系邮件 cdnc612@gmail.com，或者访问 Telegram 群组。
 
 📢 其他问题请联系网站右下角在线客服
+
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="aeb6e237-7033-4bf6-bd28-1d122b8b1d2a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
