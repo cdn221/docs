@@ -1,0 +1,46 @@
+/* 默认浅色模式 */
+body {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  color: #1a0dab;
+}
+
+/* 深色模式，触发条件是 body 有 .dark */
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark a {
+  color: #66aaff;
+}
+
+/* 右下角切换按钮 */
+#modeToggleBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #eee;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 9999;
+}
+
+body.dark #modeToggleBtn {
+  background: #333;
+  color: #eee;
+}
+
+#modeToggleBtn:hover {
+  opacity: 0.8;
+}
