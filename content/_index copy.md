@@ -2,7 +2,7 @@
 title: "欢迎访问"
 description: "轻量级、无外部依赖的 Hugo 发布页。"
 button_text: "立即访问"
-button_url: "https://cdnn1.com"
+button_url: "https://example.com/download"
 ---
 
 ## 🚀 当前可用地址：
