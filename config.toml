@@ -1,7 +1,7 @@
-baseURL = "https://fb.16021.top/"
+baseURL = "https://fb.cdnn1.com/"
 languageCode = "zh-CN"
 title = "我的发布页"
 theme = "hugo-bearblog"
 
-[params]
-customCSS = ["css/custom.css"]
+# [params]
+# customCSS = ["css/custom.css"]
