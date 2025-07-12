@@ -1,8 +1,6 @@
 ---
-title: "欢迎访问"
-description: "轻量级、无外部依赖的 Hugo 发布页。"
-button_text: "立即访问"
-button_url: "https://cdnn1.com"
+title: "欢迎访问！"
+description: "欢迎访问我的发布页。"
 ---
 
 ## 🚀 当前可用地址：
@@ -16,5 +14,3 @@ button_url: "https://cdnn1.com"
 📢 如失效请请联系邮件 cdnc612@gmail.com，或者访问 Telegram 群组。
 
 📢 其他问题请联系网站右下角在线客服
-
-<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="aeb6e237-7033-4bf6-bd28-1d122b8b1d2a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
