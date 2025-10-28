@@ -1,6 +1,6 @@
 baseURL = "https://fb.cdnn1.com/"
 languageCode = "zh-CN"
-title = "我的发布页"
+title = "发布页"
 theme = "hugo-bearblog"
 
 # [params]
