@@ -27,6 +27,8 @@
 * **绿色免安装版：**
   [https://file.gogss.top/app/WEB3.0-2.1.3-windows-amd64.zip](https://file.gogss.top/app/WEB3.0-2.1.3-windows-amd64.zip)
 
+完整安装教程：https://fb.cdnn1.com/md/win.html
+
 ## 💻 macOS 专属版
 
 * **Apple M 系列芯片：**
@@ -34,16 +36,20 @@
 * **Intel 英特尔芯片：**
   [https://file.gogss.top/app/WEB3.0-2.1.1-macos-amd64.pkg](https://file.gogss.top/app/WEB3.0-2.1.1-macos-amd64.pkg)
 
+完整安装教程：https://fb.cdnn1.com/md/mac.html
+
 ## 📱 安卓 Android 专属版
 
 下载后直接安装：
 [https://file.gogss.top/app/webseppd.app-2.1.1-android-arm64-v8a.apk](https://file.gogss.top/app/webseppd.app-2.1.1-android-arm64-v8a.apk)
 
+完整安装教程：https://fb.cdnn1.com/md/android.html
+
 ## 🍎 下载 iOS 专属客户端
 
-### App Store 搜索：
+### App Store 搜索： **Nextin（免费）**
 
-**Nextin（免费）**
+完整安装教程：https://fb.cdnn1.com/md/ios.html
 
 或直接打开：
 
