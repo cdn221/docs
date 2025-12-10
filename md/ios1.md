@@ -1,5 +1,5 @@
 
-# 🍎 **iPhone / iPad 使用指南（专属客户端）**
+# 🍎 **iPhone / iPad 使用说明（Shadowrocket客户端）**
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## 2. 海外 Apple ID 使用规则（必须阅读）
 
-为下载专属客户端，需要使用 **海外 Apple ID（共享或付费）**。
+为下载专用客户端，需要使用 **海外 Apple ID（共享或付费）**。
 为确保账号安全，请严格遵守以下规则：
 
 ### 禁止操作（请务必遵循）
@@ -38,7 +38,7 @@
 
 推荐购买更稳定的付费账号（已有海外Apple ID可忽略）：
 
-* **永久海外 Apple ID（￥12）**
+* **永久海外 Apple ID（￥35）**
   [https://store.kxsw.org/](https://store.kxsw.org/)
 
 （购买后请按照商家提供的账号登录 App Store）
@@ -64,15 +64,17 @@
 
 ---
 
-## 5. 下载 iOS 专属客户端
+## 5. 下载 Shadowrocket客户端
 
 ### App Store 搜索：
 
-**Nextin（免费）**
+* **Shadowrocket**（付费）
+如果页面没有正确切换到美区 App Store，
+会看到类似“Shadowrocket-全球网络加速神器”的仿品。
 
 或直接打开：
 
-<a href="https://apps.apple.com/app/id6754002454" target="_blank">
+<a href="https://apps.apple.com/app/id932747118" target="_blank">
     <button class="btn btn-hero-primary"><i class="far fa fa-download"></i> 前往 App Store（Nextin）</button>
 </a>
 
@@ -84,22 +86,49 @@
 
 ---
 
-## 6. 配置步骤（推荐设置）
+## 6. 快速导入配置（推荐）
 
-1. 打开 Nextin
-2. 输入站点识别码：**webbuild35**
-3. 输入你的账号密码登录
-4. 首次连接时系统会提示安装 VPN 配置 → 点击 **允许**
-5. 点击选择节点：默认使用“自动选择节点”
-6. 点击选择节点，可手动测速并选择延迟最低的节点（右上角闪电图标）
-7. 不使用时请断开连接，以免影响国内应用速度。
+请使用 **Safari 浏览器** 点击下面按钮：
+
+<a href="shadowrocket://add/sub://{{safeBase64SubscribeUrl}}?remark={{siteName}}">
+    <button class="btn btn-hero-primary">
+        <i class="far fa fa-share"></i> 点我一键导入到 Shadowrocket
+    </button>
+</a>
+
+若未成功导入：
+
+* 多点几次
+* 或进行手动导入（如下）
 
 ---
 
-## 7. 连接是否成功？
+## 7. 手动导入订阅链接（备用）
+
+1. 进入后台 → 点击“复制订阅链接”
+2. 打开 Shadowrocket
+3. 点击右上角 **+**
+4. 类型选择 **Subscribe（订阅）**
+5. 将链接粘贴进去 → 保存即可
+
+---
+
+## 8. 启动 Shadowrocket 并连接
+
+1. 打开 Shadowrocket
+2. 点击开关（未连接 → 已连接）
+3. 系统会提示安装 VPN 配置 → 点 **允许**
+4. 输入密码 / Face ID → 系统自动添加配置
+5. 开关变为绿色即成功连接
+
+---
+
+## 9. 连接是否成功？
 
 使用 Safari 打开：
 
 [https://google.com](https://google.com)
 
-能正常访问即表示连接成功。
+如果可以正常打开，即表示已成功连接。
+在 Shadowrocket 主页关闭开关即可。
+不需要使用时建议关闭，防止影响国内应用访问速度。

@@ -12,7 +12,7 @@
 
 ---
 
-## 🐱 二、下载 通用客户端（备用，当专属客户端不可用时）
+## 🐱 二、下载 通用客户端（备用，当专属客户端不可用时）如果是专属客户端，下面步骤不用再看了
 
 **🔽 exe安装版** <a href="https://file.gogss.top/Clash.Verge_2.4.3_x64-setup.exe" target="_blank"><button class="btn btn-hero-primary"><i class="far fa fa-download"></i> 点击下载（exe安装版）</button></a>
 
