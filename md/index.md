@@ -21,32 +21,34 @@
 
 ## 🖥 Windows 专属版
 
-* **安装版（推荐）：**
-  [https://file.gogss.top/app/WEB3.0-2.1.3-windows-amd64-setup.exe](https://file.gogss.top/app/WEB3.0-2.1.3-windows-amd64-setup.exe)
-* **绿色免安装版：**
-  [https://file.gogss.top/app/WEB3.0-2.1.3-windows-amd64.zip](https://file.gogss.top/app/WEB3.0-2.1.3-windows-amd64.zip)
+* **安装版：**
+  [https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup](https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup)
 
 完整安装教程：https://fb.cdnn1.com/md/win.html
 
 ## 💻 macOS 专属版
 
 * **Apple M 系列芯片：**
-  [https://file.gogss.top/app/WEB3.0-2.1.1-macos-arm64.pkg](https://file.gogss.top/app/WEB3.0-2.1.1-macos-arm64.pkg)
+  [https://www.icloud.com.cn/iclouddrive/0e4mwhOzk2CwQd0J6dglXfP8w#WEB3.0-2.1.1-macos-arm64](https://www.icloud.com.cn/iclouddrive/0e4mwhOzk2CwQd0J6dglXfP8w#WEB3.0-2.1.1-macos-arm64)
 * **Intel 英特尔芯片：**
-  [https://file.gogss.top/app/WEB3.0-2.1.1-macos-amd64.pkg](https://file.gogss.top/app/WEB3.0-2.1.1-macos-amd64.pkg)
+  [https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64](https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64)
 
 完整安装教程：https://fb.cdnn1.com/md/mac.html
 
 ## 📱 安卓 Android 专属版
 
 下载后直接安装：
-[https://file.gogss.top/app/webseppd.app-2.1.1-android-arm64-v8a.apk](https://file.gogss.top/app/webseppd.app-2.1.1-android-arm64-v8a.apk)
+[https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a](https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a)
 
 完整安装教程：https://fb.cdnn1.com/md/android.html
 
 ## 🍎 下载 iOS 专属客户端
 
 ### App Store 搜索： **Nextin（免费）**
+
+需要提前准备海外苹果ID，10几块钱的就可以
+https://www.appleidi.com/
+https://www.guowaiid.com/
 
 完整安装教程：https://fb.cdnn1.com/md/ios.html
 
