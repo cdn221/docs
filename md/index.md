@@ -40,6 +40,9 @@
 * **Intel 芯片**：
   [https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64](https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64)
 
+注意提示：提示Apple无法验证”xxx”是否包含可能危害Mac安全或泄漏隐私的恶意软件。
+解决办法：安装dmg软件后，双击打开，打开无反应，点击『设置』—『隐私与安全性』— 安全性 — 看到 clashx pro 或 FlClash 点击仍要打开
+
 ---
 
 ## 📱 Android 客户端
