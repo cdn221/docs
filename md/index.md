@@ -30,6 +30,10 @@
 * 下载地址：
   [https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup](https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup)
 
+如果报错：由于 **找不到MSVCP140.dll** ，或者其他dll错误，请尝试安装 **微软常用运行库合集** 百度、软件商店、网盘等地方可以搜到
+微软常用运行库下载地址：https://soft.3dmgame.com/down/324132.html
+选择 **普通下载**
+
 ---
 
 ## 💻 macOS 客户端
