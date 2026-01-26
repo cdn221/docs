@@ -32,7 +32,7 @@
 
 如果报错：**WebSeppd.exe 错误** ，或者 **其他dll错误** ，请尝试安装 **微软常用运行库合集** 百度、软件商店、网盘等地方可以搜到
 
-微软常用运行库下载地址：https://soft.3dmgame.com/down/324132.html
+微软常用运行库下载地址：[https://soft.3dmgame.com/down/324132.html](https://soft.3dmgame.com/down/324132.html)
 
 选择 **普通下载**
 
