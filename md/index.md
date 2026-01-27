@@ -30,7 +30,7 @@
 * 下载地址：
   [https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup](https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup)
 
-注意：安装目录不可以有中文
+注意：安装目录不可以有中文，不支持win7以下操作系统
 
 如果报错：**WebSeppd.exe 错误** ，或者 **其他dll错误** ，请尝试安装 **微软常用运行库合集** 百度、软件商店、网盘等地方可以搜到
 
