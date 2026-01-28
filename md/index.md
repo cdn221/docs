@@ -22,6 +22,7 @@
 * 请使用 **Safari / Google Chrome** 打开本页面
 * **不要使用** 微信 / QQ 内置浏览器，以免导入或跳转失败
 * 根据您的设备类型选择对应客户端版本
+* The given data was invalid 的报错是账户密码错误或者有空格，请检查
 
 ---
 
@@ -30,13 +31,11 @@
 * 下载地址：
   [https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup](https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup)
 
-注意：安装目录不可以有中文，不支持win7以下操作系统
+注意！注意！注意！：安装目录不可以有中文，不支持win7以下操作系统
 
 如果报错：**WebSeppd.exe 错误** ，或者 **其他dll错误** ，请尝试安装 **微软常用运行库合集** 百度、软件商店、网盘等地方可以搜到
 
-微软常用运行库下载地址：[https://soft.3dmgame.com/down/324132.html](https://soft.3dmgame.com/down/324132.html)
-
-选择 **普通下载**
+微软常用运行库下载地址：[https://soft.3dmgame.com/down/324132.html](https://soft.3dmgame.com/down/324132.html)，选择 **普通下载**
 
 ---
 
