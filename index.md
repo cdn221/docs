@@ -1,10 +1,12 @@
-### 客户端更新，专属客户端下载安装
+### 客户端下载
 
 🌐 永久地址: [fb.cdnn1.com](https://fb.cdnn1.com/) | 📧 客服邮箱支持: <cdnc612@gmail.com>
 
 > 注意：如果点击无效请长按复制地址浏览器打开。
 
 ***
+
+### 专属客户端下载（推荐）
 
 ### 1. 电脑客户端下载地址
 
@@ -19,11 +21,12 @@
 ### 2. 手机客户端下载地址
 
 - **Android 版本下载**: [点击下载](https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a)
-- **iOS 版本下载**: App Store 搜 **Nextin** (需海外 苹果ID 提前准备好) | [点击直接跳转到 App Store 下载](https://apps.apple.com/app/id6754002454)
->1. **识别码（必填）**: webbuild35
->2. **登录**: 使用注册邮箱+密码登录。
->3. **授权**: 弹出 VPN 请求请点 **"允许" (Allow)**。
->4. **连接**: 选 **"自动节点"** 开启。
+- **iOS 版本下载**: App Store 搜 **Nextin** (iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。) | [点击直接跳转到 App Store 下载](https://apps.apple.com540054002454)
+> 注意：iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。
+>>1. **识别码（必填）**: webbuild35
+>>2. **登录**: 使用注册邮箱+密码登录。
+>>3. **授权**: 弹出 VPN 请求请点 **"允许" (Allow)**。
+>>4. **连接**: 选 **"自动节点"** 开启。
 
 ***
 
@@ -35,3 +38,10 @@
 🌐 永久地址: [fb.cdnn1.com](https://fb.cdnn1.com/) | 📧 客服邮箱支持: <cdnc612@gmail.com>
 
 > 注意：如果点击无效请长按复制地址浏览器打开。
+
+#### 备用客户端，如果专属客户端不可用，可使用备用客户端（永久可用）。
+1. Android 版本下载：ARMv8 | ARMv7 | 64位
+2. Windows 版本下载：x64 | 便携版
+3. macOS 版本下载：M芯片 | Intel芯片
+4. IOS 版本下载：App Store 搜索 shadowrocket
+> 注意：IOS 版本下载需要提前切换到海外 苹果ID 提前准备好。
