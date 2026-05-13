@@ -1,479 +1,189 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>index.md</title>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-
-<style>
-/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>&#x1f680; &#x7ffb;&#x5899;&#x5de5;&#x5177;&#x4e13;&#x5c5e;&#x4e0b;&#x8f7d;&#x5b89;&#x88c5;</title>
+            <style>
+/* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-body {
-	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
-	font-size: var(--vscode-markdown-font-size, 14px);
-	padding: 0 26px;
-	line-height: var(--vscode-markdown-line-height, 22px);
-	word-wrap: break-word;
-}
-
-#code-csp-warning {
-	position: fixed;
-	top: 0;
-	right: 0;
-	color: white;
-	margin: 16px;
-	text-align: center;
-	font-size: 12px;
-	font-family: sans-serif;
-	background-color:#444444;
-	cursor: pointer;
-	padding: 6px;
-	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
-}
-
-#code-csp-warning:hover {
-	text-decoration: none;
-	background-color:#007acc;
-	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
-}
-
-body.scrollBeyondLastLine {
-	margin-bottom: calc(100vh - 22px);
-}
-
-body.showEditorSelection .code-line {
-	position: relative;
-}
-
-body.showEditorSelection .code-active-line:before,
-body.showEditorSelection .code-line:hover:before {
-	content: "";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: -12px;
-	height: 100%;
-}
-
-body.showEditorSelection li.code-active-line:before,
-body.showEditorSelection li.code-line:hover:before {
-	left: -30px;
-}
-
-.vscode-light.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.15);
-}
-
-.vscode-light.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.40);
-}
-
-.vscode-light.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
-}
-
-.vscode-dark.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.4);
-}
-
-.vscode-dark.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.60);
-}
-
-.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
-}
-
-.vscode-high-contrast.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 160, 0, 0.7);
-}
-
-.vscode-high-contrast.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 160, 0, 1);
-}
-
-.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
-}
-
-img {
-	max-width: 100%;
-	max-height: 100%;
-}
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:focus,
-input:focus,
-select:focus,
-textarea:focus {
-	outline: 1px solid -webkit-focus-ring-color;
-	outline-offset: -1px;
-}
-
-hr {
-	border: 0;
-	height: 2px;
-	border-bottom: 2px solid;
-}
-
-h1 {
-	padding-bottom: 0.3em;
-	line-height: 1.2;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-}
-
-h1, h2, h3 {
-	font-weight: normal;
-}
-
-table {
-	border-collapse: collapse;
-}
-
-table > thead > tr > th {
-	text-align: left;
-	border-bottom: 1px solid;
-}
-
-table > thead > tr > th,
-table > thead > tr > td,
-table > tbody > tr > th,
-table > tbody > tr > td {
-	padding: 5px 10px;
-}
-
-table > tbody > tr + tr > td {
-	border-top: 1px solid;
-}
-
-blockquote {
-	margin: 0 7px 0 5px;
-	padding: 0 16px 0 10px;
-	border-left-width: 5px;
-	border-left-style: solid;
-}
-
-code {
-	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
-	font-size: 1em;
-	line-height: 1.357em;
-}
-
-body.wordWrap pre {
-	white-space: pre-wrap;
-}
-
-pre:not(.hljs),
-pre.hljs code > div {
-	padding: 16px;
-	border-radius: 3px;
-	overflow: auto;
-}
-
-pre code {
-	color: var(--vscode-editor-foreground);
-	tab-size: 4;
-}
-
-/** Theming */
-
-.vscode-light pre {
-	background-color: rgba(220, 220, 220, 0.4);
-}
-
-.vscode-dark pre {
-	background-color: rgba(10, 10, 10, 0.4);
-}
-
-.vscode-high-contrast pre {
-	background-color: rgb(0, 0, 0);
-}
-
-.vscode-high-contrast h1 {
-	border-color: rgb(0, 0, 0);
-}
-
-.vscode-light table > thead > tr > th {
-	border-color: rgba(0, 0, 0, 0.69);
-}
-
-.vscode-dark table > thead > tr > th {
-	border-color: rgba(255, 255, 255, 0.69);
-}
-
-.vscode-light h1,
-.vscode-light hr,
-.vscode-light table > tbody > tr + tr > td {
-	border-color: rgba(0, 0, 0, 0.18);
-}
-
-.vscode-dark h1,
-.vscode-dark hr,
-.vscode-dark table > tbody > tr + tr > td {
-	border-color: rgba(255, 255, 255, 0.18);
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
 }
 
 </style>
-
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
-/* Tomorrow Theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-/* Original theme - https://github.com/chriskempson/tomorrow-theme */
-
-/* Tomorrow Comment */
-.hljs-comment,
-.hljs-quote {
-	color: #8e908c;
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
 }
 
-/* Tomorrow Red */
-.hljs-variable,
-.hljs-template-variable,
-.hljs-tag,
-.hljs-name,
-.hljs-selector-id,
-.hljs-selector-class,
-.hljs-regexp,
-.hljs-deletion {
-	color: #c82829;
-}
-
-/* Tomorrow Orange */
-.hljs-number,
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-literal,
-.hljs-type,
-.hljs-params,
-.hljs-meta,
-.hljs-link {
-	color: #f5871f;
-}
-
-/* Tomorrow Yellow */
-.hljs-attribute {
-	color: #eab700;
-}
-
-/* Tomorrow Green */
-.hljs-string,
-.hljs-symbol,
-.hljs-bullet,
-.hljs-addition {
-	color: #718c00;
-}
-
-/* Tomorrow Blue */
-.hljs-title,
-.hljs-section {
-	color: #4271ae;
-}
-
-/* Tomorrow Purple */
-.hljs-keyword,
-.hljs-selector-tag {
-	color: #8959a8;
-}
-
-.hljs {
-	display: block;
-	overflow-x: auto;
-	color: #4d4d4c;
-	padding: 0.5em;
-}
-
-.hljs-emphasis {
-	font-style: italic;
-}
-
-.hljs-strong {
-	font-weight: bold;
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
 }
 </style>
-
 <style>
-/*
- * Markdown PDF CSS
- */
-
- body {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
-	padding: 0 12px;
-}
-
-pre {
-	background-color: #f8f8f8;
-	border: 1px solid #cccccc;
-	border-radius: 3px;
-	overflow-x: auto;
-	white-space: pre-wrap;
-	overflow-wrap: break-word;
-}
-
-pre:not(.hljs) {
-	padding: 23px;
-	line-height: 19px;
-}
-
-blockquote {
-	background: rgba(127, 127, 127, 0.1);
-	border-color: rgba(0, 122, 204, 0.5);
-}
-
-.emoji {
-	height: 1.4em;
-}
-
-code {
-	font-size: 14px;
-	line-height: 19px;
-}
-
-/* for inline code */
-:not(pre):not(.hljs) > code {
-	color: #C9AE75; /* Change the old color so it seems less like an error */
-	font-size: inherit;
-}
-
-/* Page Break : use <div class="page"/> to insert page break
--------------------------------------------------------- */
-.page {
-	page-break-after: always;
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
 }
 
 </style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
 
-<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
-</head>
-<body>
-  <script>
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
-          ? 'dark'
-          : 'default'
-    });
-  </script>
-<h2 id="%F0%9F%93%A2-%E5%8F%91%E5%B8%83%E9%A1%B5%E9%87%8D%E8%A6%81%E9%80%9A%E7%9F%A5--%E6%95%85%E9%9A%9C%E6%81%A2%E5%A4%8D">📢 发布页（重要通知 &amp; 故障恢复）</h2>
-<p>如遇连接异常，请<strong>优先查看发布页</strong>获取最新恢复进度。</p>
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h2 id="-翻墙工具专属下载安装">🚀 翻墙工具专属下载安装</h2>
+<p>🌐 永久地址: <a href="https://fb.cdnn1.com/">fb.cdnn1.com</a> | 📧 客服邮箱支持: <a href="mailto:cdnc612@gmail.com">cdnc612@gmail.com</a></p>
 <blockquote>
-<p>若发布页暂时无法打开，可直接使用下方客户端，不影响使用。</p>
+<p>注意：如果点击无效请长按复制地址浏览器打开。</p>
+</blockquote>
+<hr>
+<h3 id="1-电脑端软件下载地址">1. 电脑端软件下载地址</h3>
+<ul>
+<li><strong>Windows 版本下载</strong>: <a href="https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup">点击下载</a></li>
+</ul>
+<blockquote>
+<p>注意：Windows 版本报错***: 需要安装<a href="https://soft.3dmgame.com/down/324132.html">微软运行库</a>；路径禁含中文。</p>
 </blockquote>
 <ul>
-<li><strong>发布页</strong>：<a href="https://fb.cdnn1.com/">https://fb.cdnn1.com/</a></li>
-<li><strong>客服邮箱</strong>：<a href="mailto:cdnc612@gmail.com">cdnc612@gmail.com</a></li>
+<li><strong>macOS 版本下载 M芯片（常用）</strong>: <a href="https://www.icloud.com.cn/iclouddrive/0e4mwhOzk2CwQd0J6dglXfP8w#WEB3.0-2.1.1-macos-arm64">点击下载</a></li>
+<li><strong>macOS 版本下载Intel（不常用）</strong>: <a href="https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64">点击下载</a></li>
 </ul>
+<blockquote>
+<p>注意：macOS 打不开: 系统设置 -&gt; 隐私与安全性 -&gt; 仍要打开。</p>
+</blockquote>
 <hr>
-<h2 id="%F0%9F%93%A5-%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%99%BB%E5%BD%95%E6%96%B9%E5%BC%8F%E6%8E%A8%E8%8D%90">📥 客户端登录方式（推荐）</h2>
-<p>现已支持 <strong>专属客户端</strong>，使用 <strong>邮箱账号 + 密码</strong> 登录即可。</p>
+<h3 id="2-手机端软件下载地址">2. 手机端软件下载地址</h3>
 <ul>
-<li>忘记密码：客户端内点击 <strong>“忘记密码”</strong> 进行重置，或联系邮箱客服协助处理，需要用自己邮箱发送</li>
+<li><strong>Android</strong>: <a href="https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a">点击下载</a></li>
+<li><strong>iOS</strong>: App Store 搜 <strong>Nextin</strong> (需海外 苹果ID 提前准备好) | <a href="https://apps.apple.com/app/id6754002454">点击直接跳转到 App Store 下载</a></li>
 </ul>
-<hr>
-<h2 id="%E2%9A%A0%EF%B8%8F-%E4%BD%BF%E7%94%A8%E5%89%8D%E9%87%8D%E8%A6%81%E8%AF%B4%E6%98%8E%E8%AF%B7%E5%8A%A1%E5%BF%85%E9%98%85%E8%AF%BB">⚠️ 使用前重要说明（请务必阅读）</h2>
-<ul>
-<li>请使用 <strong>Safari / Google Chrome</strong> 打开本页面</li>
-<li><strong>不要使用</strong> 微信 / QQ 内置浏览器，以免导入或跳转失败</li>
-<li>根据您的设备类型选择对应客户端版本</li>
-<li>The given data was invalid 的报错是账户密码错误或者有空格，请检查</li>
-</ul>
-<hr>
-<h2 id="%F0%9F%96%A5%EF%B8%8F-windows-%E5%AE%A2%E6%88%B7%E7%AB%AF">🖥️ Windows 客户端</h2>
-<ul>
-<li>下载地址：
-<a href="https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup">https://www.icloud.com.cn/iclouddrive/01etBka-fr2jBX0akd038Xgtw#WEB3.0-2.1.1-windows-amd64-setup</a></li>
-</ul>
-<p>注意！注意！注意！：安装目录不可以有中文，不支持win7以下操作系统</p>
-<p>如果报错：<strong>WebSeppd.exe 错误</strong> ，或者 <strong>其他dll错误</strong> ，请尝试安装 <strong>微软常用运行库合集</strong> 百度、软件商店、网盘等地方可以搜到</p>
-<p>微软常用运行库下载地址：<a href="https://soft.3dmgame.com/down/324132.html">https://soft.3dmgame.com/down/324132.html</a>，选择 <strong>普通下载</strong></p>
-<hr>
-<h2 id="%F0%9F%92%BB-macos-%E5%AE%A2%E6%88%B7%E7%AB%AF">💻 macOS 客户端</h2>
-<ul>
-<li>
-<p><strong>Apple 芯片（M 系列）</strong>：
-<a href="https://www.icloud.com.cn/iclouddrive/0e4mwhOzk2CwQd0J6dglXfP8w#WEB3.0-2.1.1-macos-arm64">https://www.icloud.com.cn/iclouddrive/0e4mwhOzk2CwQd0J6dglXfP8w#WEB3.0-2.1.1-macos-arm64</a></p>
-</li>
-<li>
-<p><strong>Intel 芯片</strong>：
-<a href="https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64">https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64</a></p>
-</li>
-</ul>
-<p>注意提示：提示Apple无法验证”xxx”是否包含可能危害Mac安全或泄漏隐私的恶意软件。
-解决办法：安装dmg软件后，双击打开，打开无反应，点击『设置』—『隐私与安全性』— 安全性 — 看到 clashx pro 或 FlClash 点击仍要打开</p>
-<hr>
-<h2 id="%F0%9F%93%B1-android-%E5%AE%A2%E6%88%B7%E7%AB%AF">📱 Android 客户端</h2>
-<ul>
-<li>下载地址：
-<a href="https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a">https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a</a></li>
-</ul>
-<hr>
-<h2 id="%F0%9F%8D%8E-ios-%E5%AE%A2%E6%88%B7%E7%AB%AFiphone--ipad">🍎 iOS 客户端（iPhone / iPad）</h2>
-<p>国内 App Store 无法直接搜索，需要提前准备 <strong>海外 Apple ID</strong>（费用低、一次即可）。</p>
-<ul>
-<li>
-<p>Apple ID 购买参考：</p>
-<ul>
-<li><a href="https://www.appleidi.com/">https://www.appleidi.com/</a></li>
-<li><a href="https://www.guowaiid.com/">https://www.guowaiid.com/</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="%E4%B8%8B%E8%BD%BD%E6%96%B9%E5%BC%8F">下载方式</h3>
+<blockquote>
 <ol>
-<li>切换至海外 Apple ID</li>
-<li>打开 App Store 搜索：<strong>Nextin（免费）</strong></li>
-<li>或直接访问：
-<a href="https://apps.apple.com/app/id6754002454">https://apps.apple.com/app/id6754002454</a></li>
+<li><strong>识别码</strong>: <strong>【iOS 必填】</strong> <code>webbuild35</code></li>
+<li><strong>登录</strong>: 使用注册邮箱+密码登录。</li>
+<li><strong>授权</strong>: 弹出 VPN 请求请点 <strong>&quot;允许&quot; (Allow)</strong>。</li>
+<li><strong>连接</strong>: 选 <strong>&quot;自动节点&quot;</strong> 开启。</li>
 </ol>
-<h3 id="%E5%A6%82%E9%81%87%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD">如遇无法下载</h3>
-<ol>
-<li>
-<p>彻底关闭 App Store（从后台滑掉）</p>
-</li>
-<li>
-<p>重新打开 App Store</p>
-</li>
-<li>
-<p>再次搜索 <strong>Nextin</strong></p>
-</li>
-<li>
-<p>若忘记 Apple ID 密码：</p>
-<ul>
-<li>可在电脑端重置</li>
-<li>或联系邮箱客服协助处理，需要用自己邮箱发送</li>
-</ul>
-</li>
-</ol>
+</blockquote>
 <hr>
-<h2 id="%F0%9F%94%A7-%E5%85%A8%E5%B9%B3%E5%8F%B0%E9%80%9A%E7%94%A8%E9%85%8D%E7%BD%AE%E6%AD%A5%E9%AA%A4">🔧 全平台通用配置步骤</h2>
-<ol>
-<li>打开 <strong>Nextin</strong> 客户端</li>
-<li>【仅 iOS 需要】输入站点识别码：webbuild35</li>
-<li>使用 <strong>邮箱账号 + 密码</strong> 登录</li>
-<li>首次连接时，系统会提示安装 VPN 配置 → 点击 <strong>允许</strong></li>
-<li>点击“选择节点”，默认使用 <strong>自动选择节点</strong></li>
-<li>可点击右上角 ⚡ 图标测速，手动选择延迟最低节点</li>
-<li>不使用时请 <strong>断开连接</strong>，避免影响国内应用速度</li>
-</ol>
-<hr>
-<h2 id="%F0%9F%86%95-%E6%96%B0%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%AF%B4%E6%98%8E">🆕 新客户端说明</h2>
+<h3 id="3-常见问题-faq">3. 常见问题 (FAQ)</h3>
 <ul>
-<li>操作更简单</li>
-<li>配置自动同步</li>
-<li>适合新手用户</li>
+<li><strong>登录报错</strong>: 检查密码是否有空格；必用 <strong>Chrome/Safari</strong>。</li>
+<li><strong>忘记密码</strong>: 登录页点 &quot;忘记密码&quot; 重置。</li>
 </ul>
-<p>后续新版本将<strong>优先在本发布页更新</strong>，请持续关注。</p>
+<p>🌐 永久地址: <a href="https://fb.cdnn1.com/">fb.cdnn1.com</a> | 📧 客服邮箱支持: <a href="mailto:cdnc612@gmail.com">cdnc612@gmail.com</a></p>
+<blockquote>
+<p>注意：如果点击无效请长按复制地址浏览器打开。</p>
+</blockquote>
 
-</body>
-</html>
+            
+            
+        </body>
+        </html>
