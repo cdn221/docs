@@ -23,6 +23,7 @@
 - **Android 版本下载**: [点击下载](https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a)
 - **iOS 版本下载**: App Store 搜 **Nextin** (iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。) | [点击直接跳转到 App Store 下载](https://apps.apple.com540054002454)
 > 注意：iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。
+
 >>1. **识别码（必填）**: webbuild35
 >>2. **登录**: 使用注册邮箱+密码登录。
 >>3. **授权**: 弹出 VPN 请求请点 **"允许" (Allow)**。
@@ -35,7 +36,7 @@
 - **登录报错**: 检查密码是否有空格；必用 **Chrome/Safari**。
 - **忘记密码**: 登录页点 "忘记密码" 重置。
 - **远程支持**：如果需要远程支持，提前下载好软件https://anydesk.com/zhs
-- 打开给客服，注意权限要打开，用完后及时关闭防止安全问题。
+- **远程支持**：打开给客服，注意权限要打开，用完后及时关闭防止安全问题。
 
 🌐 永久地址: [fb.cdnn1.com](https://fb.cdnn1.com/) | 📧 客服邮箱支持: <cdnc612@gmail.com>
 
