@@ -10,7 +10,7 @@
 
 ### 1. 电脑客户端下载地址
 
-- **Windows 版本下载**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WebSeppd-3.0.5-windows-amd64-setup.exe)
+- **Windows 版本下载（支持Win10以上系统）**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WebSeppd-3.0.5-windows-amd64-setup.exe)
 > 注意：Windows 版本报错***: 需要安装[微软运行库](https://soft.3dmgame.com/down/324132.html)；选择 普通下载，路径禁含中文。
 - **macOS 版本下载 M芯片（常用）**: [点击下载](https://www.icloud.com.cn/iclouddrive/0e4mwhOzk2CwQd0J6dglXfP8w#WEB3.0-2.1.1-macos-arm64)
 - **macOS 版本下载 Intel（不常用）**: [点击下载](https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64)

@@ -1,216 +1,226 @@
 <!DOCTYPE html>
-        <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>&#x5ba2;&#x6237;&#x7aef;&#x4e0b;&#x8f7d;</title>
-            <style>
-/* From extension vscode.github */
-/*---------------------------------------------------------------------------------------------
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>&#x5ba2;&#x6237;&#x7aef;&#x4e0b;&#x8f7d;</title>
+  <style>
+    /* From extension vscode.github */
+    /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-.vscode-dark img[src$=\#gh-light-mode-only],
-.vscode-light img[src$=\#gh-dark-mode-only],
-.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
-.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
-	display: none;
-}
+    .vscode-dark img[src$=\#gh-light-mode-only],
+    .vscode-light img[src$=\#gh-dark-mode-only],
+    .vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+    .vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+      display: none;
+    }
+  </style>
 
-</style>
-            
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
-<style>
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
-                font-size: 14px;
-                line-height: 1.6;
-            }
-        </style>
-        <style>
-.task-list-item {
-    list-style-type: none;
-}
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  </style>
+  <style>
+    .task-list-item {
+      list-style-type: none;
+    }
 
-.task-list-item-checkbox {
-    margin-left: -20px;
-    vertical-align: middle;
-    pointer-events: none;
-}
-</style>
-<style>
-:root {
-  --color-note: #0969da;
-  --color-tip: #1a7f37;
-  --color-warning: #9a6700;
-  --color-severe: #bc4c00;
-  --color-caution: #d1242f;
-  --color-important: #8250df;
-}
+    .task-list-item-checkbox {
+      margin-left: -20px;
+      vertical-align: middle;
+      pointer-events: none;
+    }
+  </style>
+  <style>
+    :root {
+      --color-note: #0969da;
+      --color-tip: #1a7f37;
+      --color-warning: #9a6700;
+      --color-severe: #bc4c00;
+      --color-caution: #d1242f;
+      --color-important: #8250df;
+    }
+  </style>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-note: #2f81f7;
+        --color-tip: #3fb950;
+        --color-warning: #d29922;
+        --color-severe: #db6d28;
+        --color-caution: #f85149;
+        --color-important: #a371f7;
+      }
+    }
+  </style>
+  <style>
+    .markdown-alert {
+      padding: 0.5rem 1rem;
+      margin-bottom: 16px;
+      color: inherit;
+      border-left: .25em solid #888;
+    }
 
-</style>
-<style>
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-note: #2f81f7;
-    --color-tip: #3fb950;
-    --color-warning: #d29922;
-    --color-severe: #db6d28;
-    --color-caution: #f85149;
-    --color-important: #a371f7;
-  }
-}
+    .markdown-alert>:first-child {
+      margin-top: 0
+    }
 
-</style>
-<style>
-.markdown-alert {
-  padding: 0.5rem 1rem;
-  margin-bottom: 16px;
-  color: inherit;
-  border-left: .25em solid #888;
-}
+    .markdown-alert>:last-child {
+      margin-bottom: 0
+    }
 
-.markdown-alert>:first-child {
-  margin-top: 0
-}
+    .markdown-alert .markdown-alert-title {
+      display: flex;
+      font-weight: 500;
+      align-items: center;
+      line-height: 1
+    }
 
-.markdown-alert>:last-child {
-  margin-bottom: 0
-}
+    .markdown-alert .markdown-alert-title .octicon {
+      margin-right: 0.5rem;
+      display: inline-block;
+      overflow: visible !important;
+      vertical-align: text-bottom;
+      fill: currentColor;
+    }
 
-.markdown-alert .markdown-alert-title {
-  display: flex;
-  font-weight: 500;
-  align-items: center;
-  line-height: 1
-}
+    .markdown-alert.markdown-alert-note {
+      border-left-color: var(--color-note);
+    }
 
-.markdown-alert .markdown-alert-title .octicon {
-  margin-right: 0.5rem;
-  display: inline-block;
-  overflow: visible !important;
-  vertical-align: text-bottom;
-  fill: currentColor;
-}
+    .markdown-alert.markdown-alert-note .markdown-alert-title {
+      color: var(--color-note);
+    }
 
-.markdown-alert.markdown-alert-note {
-  border-left-color: var(--color-note);
-}
+    .markdown-alert.markdown-alert-important {
+      border-left-color: var(--color-important);
+    }
 
-.markdown-alert.markdown-alert-note .markdown-alert-title {
-  color: var(--color-note);
-}
+    .markdown-alert.markdown-alert-important .markdown-alert-title {
+      color: var(--color-important);
+    }
 
-.markdown-alert.markdown-alert-important {
-  border-left-color: var(--color-important);
-}
+    .markdown-alert.markdown-alert-warning {
+      border-left-color: var(--color-warning);
+    }
 
-.markdown-alert.markdown-alert-important .markdown-alert-title {
-  color: var(--color-important);
-}
+    .markdown-alert.markdown-alert-warning .markdown-alert-title {
+      color: var(--color-warning);
+    }
 
-.markdown-alert.markdown-alert-warning {
-  border-left-color: var(--color-warning);
-}
+    .markdown-alert.markdown-alert-tip {
+      border-left-color: var(--color-tip);
+    }
 
-.markdown-alert.markdown-alert-warning .markdown-alert-title {
-  color: var(--color-warning);
-}
+    .markdown-alert.markdown-alert-tip .markdown-alert-title {
+      color: var(--color-tip);
+    }
 
-.markdown-alert.markdown-alert-tip {
-  border-left-color: var(--color-tip);
-}
+    .markdown-alert.markdown-alert-caution {
+      border-left-color: var(--color-caution);
+    }
 
-.markdown-alert.markdown-alert-tip .markdown-alert-title {
-  color: var(--color-tip);
-}
+    .markdown-alert.markdown-alert-caution .markdown-alert-title {
+      color: var(--color-caution);
+    }
+  </style>
 
-.markdown-alert.markdown-alert-caution {
-  border-left-color: var(--color-caution);
-}
+</head>
 
-.markdown-alert.markdown-alert-caution .markdown-alert-title {
-  color: var(--color-caution);
-}
+<body class="vscode-body vscode-light">
+  <h3 id="客户端下载">客户端下载</h3>
+  <p>🌐 永久地址: <a href="https://fb.cdnn1.com/">fb.cdnn1.com</a> | 📧 客服邮箱支持: <a
+      href="mailto:cdnc612@gmail.com">cdnc612@gmail.com</a></p>
+  <blockquote>
+    <p>注意：如果点击无效请长按复制地址浏览器打开。</p>
+  </blockquote>
+  <hr>
+  <h3 id="专属客户端下载推荐">专属客户端下载（推荐）</h3>
+  <h3 id="1-电脑客户端下载地址">1. 电脑客户端下载地址</h3>
+  <ul>
+    <li><strong>Windows 版本下载（支持Win10以上系统）</strong>: <a
+        href="https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WebSeppd-3.0.5-windows-amd64-setup.exe">点击下载</a>
+    </li>
+  </ul>
+  <blockquote>
+    <p>注意：Windows 版本报错***: 需要安装<a href="https://soft.3dmgame.com/down/324132.html">微软运行库</a>；选择 普通下载，路径禁含中文。</p>
+  </blockquote>
+  <ul>
+    <li><strong>macOS 版本下载 M芯片（常用）</strong>: <a
+        href="https://www.icloud.com.cn/iclouddrive/0e4mwhOzk2CwQd0J6dglXfP8w#WEB3.0-2.1.1-macos-arm64">点击下载</a></li>
+    <li><strong>macOS 版本下载 Intel（不常用）</strong>: <a
+        href="https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64">点击下载</a></li>
+  </ul>
+  <blockquote>
+    <p>注意：macOS 打不开: 系统设置 -&gt; 隐私与安全性 -&gt; 仍要打开。</p>
+  </blockquote>
+  <hr>
+  <h3 id="2-手机客户端下载地址">2. 手机客户端下载地址</h3>
+  <ul>
+    <li><strong>Android 版本下载</strong>: <a
+        href="https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a">点击下载</a>
+    </li>
+    <li><strong>iOS 版本下载</strong>: App Store 搜 <strong>Nextin</strong> (iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。) | <a
+        href="https://apps.apple.com540054002454">点击直接跳转到 App Store 下载</a></li>
+  </ul>
+  <blockquote>
+    <p>注意：iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。</p>
+  </blockquote>
+  <blockquote>
+    <ol>
+      <li><strong>识别码（必填）</strong>: webbuild35</li>
+      <li><strong>登录</strong>: 使用注册邮箱+密码登录。</li>
+      <li><strong>授权</strong>: 弹出 VPN 请求请点 <strong>&quot;允许&quot; (Allow)</strong>。</li>
+      <li><strong>连接</strong>: 选 <strong>&quot;自动节点&quot;</strong> 开启。</li>
+    </ol>
+  </blockquote>
+  <hr>
+  <h3 id="3-常见问题-faq">3. 常见问题 (FAQ)</h3>
+  <ul>
+    <li><strong>登录报错</strong>: 检查密码是否有空格；必用 <strong>Chrome/Safari</strong>。</li>
+    <li><strong>忘记密码</strong>: 登录页点 &quot;忘记密码&quot; 重置。</li>
+    <li><strong>如果不可用</strong>: 尝试2个步骤（缺一不可），1.刷新配置 &gt; 2.延迟测速，适用所有客户端</li>
+    <li><strong>远程支持</strong>：如果需要远程支持，提前下载好软件<a href="https://anydesk.com/zhs">https://anydesk.com/zhs</a></li>
+    <li><strong>远程支持</strong>：截图客服，注意权限要打开，用完后及时关闭防止安全问题。</li>
+  </ul>
+  <p>🌐 永久地址: <a href="https://fb.cdnn1.com/">fb.cdnn1.com</a> | 📧 客服邮箱支持: <a
+      href="mailto:cdnc612@gmail.com">cdnc612@gmail.com</a></p>
+  <blockquote>
+    <p>注意：如果点击无效请长按复制地址浏览器打开。</p>
+  </blockquote>
+  <h4 id="备用客户端如果专属客户端不可用可使用备用客户端永久可用">备用客户端，如果专属客户端不可用，可使用备用客户端（永久可用）。</h4>
+  <ol>
+    <li>Android 版本下载：ARMv8 | ARMv7 | 64位</li>
+    <li>Windows 版本下载：x64 | 便携版</li>
+    <li>macOS 版本下载：M芯片 | Intel芯片</li>
+    <li>IOS 版本下载：App Store 搜索 shadowrocket</li>
+  </ol>
+  <blockquote>
+    <p>注意：IOS 版本下载需要提前切换到海外 苹果ID 提前准备好。</p>
+  </blockquote>
 
-</style>
-        
-        </head>
-        <body class="vscode-body vscode-light">
-            <h3 id="客户端下载">客户端下载</h3>
-<p>🌐 永久地址: <a href="https://fb.cdnn1.com/">fb.cdnn1.com</a> | 📧 客服邮箱支持: <a href="mailto:cdnc612@gmail.com">cdnc612@gmail.com</a></p>
-<blockquote>
-<p>注意：如果点击无效请长按复制地址浏览器打开。</p>
-</blockquote>
-<hr>
-<h3 id="专属客户端下载推荐">专属客户端下载（推荐）</h3>
-<h3 id="1-电脑客户端下载地址">1. 电脑客户端下载地址</h3>
-<ul>
-<li><strong>Windows 版本下载</strong>: <a href="https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WebSeppd-3.0.5-windows-amd64-setup.exe">点击下载</a></li>
-</ul>
-<blockquote>
-<p>注意：Windows 版本报错***: 需要安装<a href="https://soft.3dmgame.com/down/324132.html">微软运行库</a>；选择 普通下载，路径禁含中文。</p>
-</blockquote>
-<ul>
-<li><strong>macOS 版本下载 M芯片（常用）</strong>: <a href="https://www.icloud.com.cn/iclouddrive/0e4mwhOzk2CwQd0J6dglXfP8w#WEB3.0-2.1.1-macos-arm64">点击下载</a></li>
-<li><strong>macOS 版本下载 Intel（不常用）</strong>: <a href="https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64">点击下载</a></li>
-</ul>
-<blockquote>
-<p>注意：macOS 打不开: 系统设置 -&gt; 隐私与安全性 -&gt; 仍要打开。</p>
-</blockquote>
-<hr>
-<h3 id="2-手机客户端下载地址">2. 手机客户端下载地址</h3>
-<ul>
-<li><strong>Android 版本下载</strong>: <a href="https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a">点击下载</a></li>
-<li><strong>iOS 版本下载</strong>: App Store 搜 <strong>Nextin</strong> (iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。) | <a href="https://apps.apple.com540054002454">点击直接跳转到 App Store 下载</a></li>
-</ul>
-<blockquote>
-<p>注意：iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。</p>
-</blockquote>
-<blockquote>
-<ol>
-<li><strong>识别码（必填）</strong>: webbuild35</li>
-<li><strong>登录</strong>: 使用注册邮箱+密码登录。</li>
-<li><strong>授权</strong>: 弹出 VPN 请求请点 <strong>&quot;允许&quot; (Allow)</strong>。</li>
-<li><strong>连接</strong>: 选 <strong>&quot;自动节点&quot;</strong> 开启。</li>
-</ol>
-</blockquote>
-<hr>
-<h3 id="3-常见问题-faq">3. 常见问题 (FAQ)</h3>
-<ul>
-<li><strong>登录报错</strong>: 检查密码是否有空格；必用 <strong>Chrome/Safari</strong>。</li>
-<li><strong>忘记密码</strong>: 登录页点 &quot;忘记密码&quot; 重置。</li>
-<li><strong>如果不可用</strong>: 尝试2个步骤（缺一不可），1.刷新配置 &gt; 2.延迟测速，适用所有客户端</li>
-<li><strong>远程支持</strong>：如果需要远程支持，提前下载好软件<a href="https://anydesk.com/zhs">https://anydesk.com/zhs</a></li>
-<li><strong>远程支持</strong>：截图客服，注意权限要打开，用完后及时关闭防止安全问题。</li>
-</ul>
-<p>🌐 永久地址: <a href="https://fb.cdnn1.com/">fb.cdnn1.com</a> | 📧 客服邮箱支持: <a href="mailto:cdnc612@gmail.com">cdnc612@gmail.com</a></p>
-<blockquote>
-<p>注意：如果点击无效请长按复制地址浏览器打开。</p>
-</blockquote>
-<h4 id="备用客户端如果专属客户端不可用可使用备用客户端永久可用">备用客户端，如果专属客户端不可用，可使用备用客户端（永久可用）。</h4>
-<ol>
-<li>Android 版本下载：ARMv8 | ARMv7 | 64位</li>
-<li>Windows 版本下载：x64 | 便携版</li>
-<li>macOS 版本下载：M芯片 | Intel芯片</li>
-<li>IOS 版本下载：App Store 搜索 shadowrocket</li>
-</ol>
-<blockquote>
-<p>注意：IOS 版本下载需要提前切换到海外 苹果ID 提前准备好。</p>
-</blockquote>
+  <script type="text/javascript">
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "aeb6e237-7033-4bf6-bd28-1d122b8b1d2a";
+    (function () {
+      d = document;
+      s = d.createElement("script");
+      s.src = "https://client.crisp.chat/l.js";
+      s.async = 1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+  </script>
 
-	<script type="text/javascript">
-		window.$crisp = [];
-		window.CRISP_WEBSITE_ID = "aeb6e237-7033-4bf6-bd28-1d122b8b1d2a";
-		(function () {
-			d = document;
-			s = d.createElement("script");
-			s.src = "https://client.crisp.chat/l.js";
-			s.async = 1;
-			d.getElementsByTagName("head")[0].appendChild(s);
-		})();
-	</script>
-            
-        </body>
-        </html>
+</body>
+
+</html>
