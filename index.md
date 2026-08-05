@@ -10,19 +10,22 @@
 
 ### 1. 电脑客户端下载地址
 
-- **Windows 版本下载（支持Win10以上系统）**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WebSeppd-3.0.5-windows-amd64-setup.exe)
-> 注意：Windows 版本报错***: 需要安装[微软运行库](https://soft.3dmgame.com/down/324132.html)；选择 普通下载，路径禁含中文。
-- **macOS 版本下载 M芯片（常用）**: [点击下载](https://www.icloud.com.cn/iclouddrive/0e4mwhOzk2CwQd0J6dglXfP8w#WEB3.0-2.1.1-macos-arm64)
-- **macOS 版本下载 Intel（不常用）**: [点击下载](https://www.icloud.com.cn/iclouddrive/0f5rmXUCDlL_3NlHXo-oq-eiQ#WEB3.0-2.1.1-macos-amd64)
+- **Windows 专属版本下载（支持Win10以上系统）**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WebSeppd-3.0.5-windows-amd64-setup.exe)
+- **Windows 通用版本下载（支持Win10以下系统）**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/cfw32.7z)
+> 注意：Windows 版本报错***: 需要安装[微软运行库](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/wrcyyxkhji2024.11.07.exe)；选择 普通下载，路径禁含中文。
+
+- **macOS 版本下载 M芯片（常用）**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WEB3.0-2.1.1-macos-arm64.pkg)
+- **macOS 版本下载 Intel（不常用）**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WEB3.0-2.1.1-macos-amd64.pkg)
 > 注意：macOS 打不开: 系统设置 -> 隐私与安全性 -> 仍要打开。
 
 ***
 
 ### 2. 手机客户端下载地址
 
-- **Android 版本下载**: [点击下载](https://www.icloud.com.cn/iclouddrive/059UxMusk_4PwKc2yaRwdc-Ow#webseppd.app-2.1.1-android-arm64-v8a)
+- **Android 版本下载**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/webseppd.app-2.1.1-android-arm64-v8a.apk)
 - **iOS 版本下载**: App Store 搜 **Nextin** (iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。) | [点击直接跳转到 App Store 下载](https://apps.apple.com540054002454)
 > 注意：iOS 版本下载需要提前切换到海外 苹果ID 提前准备好。
+> 海外苹果ID购买：https://store.kxsw.org/
 
 >1. **识别码（必填）**: webbuild35
 >2. **登录**: 使用注册邮箱+密码登录。
