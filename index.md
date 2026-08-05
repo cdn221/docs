@@ -10,7 +10,7 @@
 
 ### 1. 电脑客户端下载地址
 
-- **Windows 专属版本下载（支持Win10以上系统）**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WebSeppd-3.0.5-windows-amd64-setup.exe)
+- **Windows 专属版本下载（支持Win10以上系统，常用）**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/WebSeppd-3.0.5-windows-amd64-setup.exe)
 - **Windows 通用版本下载（支持Win10以下系统）**: [点击下载](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/cfw32.7z)
 > 注意：Windows 版本报错***: 需要安装[微软运行库](https://hk.gh-proxy.org/https://github.com/cdn221/docs/releases/download/v2.1.1/wrcyyxkhji2024.11.07.exe)；选择 普通下载，路径禁含中文。
 
